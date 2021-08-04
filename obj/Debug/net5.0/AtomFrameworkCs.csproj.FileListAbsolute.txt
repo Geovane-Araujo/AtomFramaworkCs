@@ -10,3 +10,15 @@ E:\Adonai Workspace\AdonaiSoft Sistemas\AdonaiSoft Uteis\AtomFrameworkCs\obj\Deb
 E:\Adonai Workspace\AdonaiSoft Sistemas\AdonaiSoft Uteis\AtomFrameworkCs\obj\Debug\net5.0\AtomFrameworkCs.dll
 E:\Adonai Workspace\AdonaiSoft Sistemas\AdonaiSoft Uteis\AtomFrameworkCs\obj\Debug\net5.0\ref\AtomFrameworkCs.dll
 E:\Adonai Workspace\AdonaiSoft Sistemas\AdonaiSoft Uteis\AtomFrameworkCs\obj\Debug\net5.0\AtomFrameworkCs.pdb
+E:\Geovane\AtomFramaworkCs\bin\Debug\net5.0\AtomFrameworkCs.deps.json
+E:\Geovane\AtomFramaworkCs\bin\Debug\net5.0\AtomFrameworkCs.dll
+E:\Geovane\AtomFramaworkCs\bin\Debug\net5.0\ref\AtomFrameworkCs.dll
+E:\Geovane\AtomFramaworkCs\bin\Debug\net5.0\AtomFrameworkCs.pdb
+E:\Geovane\AtomFramaworkCs\obj\Debug\net5.0\AtomFrameworkCs.csproj.AssemblyReference.cache
+E:\Geovane\AtomFramaworkCs\obj\Debug\net5.0\AtomFrameworkCs.GeneratedMSBuildEditorConfig.editorconfig
+E:\Geovane\AtomFramaworkCs\obj\Debug\net5.0\AtomFrameworkCs.AssemblyInfoInputs.cache
+E:\Geovane\AtomFramaworkCs\obj\Debug\net5.0\AtomFrameworkCs.AssemblyInfo.cs
+E:\Geovane\AtomFramaworkCs\obj\Debug\net5.0\AtomFrameworkCs.csproj.CoreCompileInputs.cache
+E:\Geovane\AtomFramaworkCs\obj\Debug\net5.0\AtomFrameworkCs.dll
+E:\Geovane\AtomFramaworkCs\obj\Debug\net5.0\ref\AtomFrameworkCs.dll
+E:\Geovane\AtomFramaworkCs\obj\Debug\net5.0\AtomFrameworkCs.pdb

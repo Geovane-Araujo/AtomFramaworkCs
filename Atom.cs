@@ -233,7 +233,7 @@ namespace AtomFrameworkCs
         {
             SqlCommand command = null;
             command = ConstructorCommand(obj, con, 1);
-            int id = (int)command.ExecuteScalar();
+            int id = Convert.ToInt32(command.ExecuteScalar());
             return id;
         }
 
@@ -315,7 +315,7 @@ namespace AtomFrameworkCs
                 fields = fields.Substring(0, fields.Length - 1);
                 values = values.Substring(0, values.Length - 1);
 
-                sql = "INSERT INTO " + table + " (" + fields + ") VALUES (" + values + " ) returning " + idcolumn + ";";
+                sql = "INSERT INTO " + table + " (" + fields + ") VALUES (" + values + " ) ;SELECT SCOPE_IDENTITY();";
             }
             else if (type == 2)
             {
