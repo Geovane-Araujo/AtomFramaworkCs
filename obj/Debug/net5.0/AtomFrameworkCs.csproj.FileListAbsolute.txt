@@ -2,7 +2,6 @@ E:\Adonai Workspace\AdonaiSoft Sistemas\AdonaiSoft Uteis\AtomFrameworkCs\bin\Deb
 E:\Adonai Workspace\AdonaiSoft Sistemas\AdonaiSoft Uteis\AtomFrameworkCs\bin\Debug\net5.0\AtomFrameworkCs.dll
 E:\Adonai Workspace\AdonaiSoft Sistemas\AdonaiSoft Uteis\AtomFrameworkCs\bin\Debug\net5.0\ref\AtomFrameworkCs.dll
 E:\Adonai Workspace\AdonaiSoft Sistemas\AdonaiSoft Uteis\AtomFrameworkCs\bin\Debug\net5.0\AtomFrameworkCs.pdb
-E:\Adonai Workspace\AdonaiSoft Sistemas\AdonaiSoft Uteis\AtomFrameworkCs\obj\Debug\net5.0\AtomFrameworkCs.csproj.AssemblyReference.cache
 E:\Adonai Workspace\AdonaiSoft Sistemas\AdonaiSoft Uteis\AtomFrameworkCs\obj\Debug\net5.0\AtomFrameworkCs.GeneratedMSBuildEditorConfig.editorconfig
 E:\Adonai Workspace\AdonaiSoft Sistemas\AdonaiSoft Uteis\AtomFrameworkCs\obj\Debug\net5.0\AtomFrameworkCs.AssemblyInfoInputs.cache
 E:\Adonai Workspace\AdonaiSoft Sistemas\AdonaiSoft Uteis\AtomFrameworkCs\obj\Debug\net5.0\AtomFrameworkCs.AssemblyInfo.cs
@@ -10,3 +9,4 @@ E:\Adonai Workspace\AdonaiSoft Sistemas\AdonaiSoft Uteis\AtomFrameworkCs\obj\Deb
 E:\Adonai Workspace\AdonaiSoft Sistemas\AdonaiSoft Uteis\AtomFrameworkCs\obj\Debug\net5.0\AtomFrameworkCs.dll
 E:\Adonai Workspace\AdonaiSoft Sistemas\AdonaiSoft Uteis\AtomFrameworkCs\obj\Debug\net5.0\ref\AtomFrameworkCs.dll
 E:\Adonai Workspace\AdonaiSoft Sistemas\AdonaiSoft Uteis\AtomFrameworkCs\obj\Debug\net5.0\AtomFrameworkCs.pdb
+E:\Adonai Workspace\AdonaiSoft Sistemas\AdonaiSoft Uteis\AtomFrameworkCs\obj\Debug\net5.0\AtomFrameworkCs.csproj.AssemblyReference.cache

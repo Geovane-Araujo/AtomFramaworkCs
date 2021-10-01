@@ -3,6 +3,7 @@ using Npgsql;
 using System;
 using System.Collections;
 using System.Collections.Generic;
+using System.Collections.ObjectModel;
 using System.ComponentModel;
 using System.Data.SqlClient;
 using System.Reflection;
@@ -30,6 +31,8 @@ namespace AtomFrameworkCs
             return id;
         }
 
+        
+
         public static Boolean EditingOne(Object obj, NpgsqlConnection con)
         {
             Boolean ret = false;
@@ -56,9 +59,31 @@ namespace AtomFrameworkCs
             return obj;
         }
 
+        public static T GetOne<T>(NpgsqlConnection con, String sql)
+        {
+            Object ret = new();
+
+            ret = ConstructorCommand(con, sql, 1);
+            var json = JsonConvert.SerializeObject(ret);
+            T obj = JsonConvert.DeserializeObject<T>(json);
+            return obj;
+        }
+
         public static Object GetAll(NpgsqlConnection con, String sql)
         {
             Object obj = ConstructorCommand(con, sql,2);
+            return obj;
+        }
+
+        public static Collection<T> GetAll<T>(NpgsqlConnection con, String sql)
+        {
+
+            Object ret = new();
+            ret = ConstructorCommand(con, sql, 2);
+            var json = JsonConvert.SerializeObject(ret);
+
+            Collection<T> obj = JsonConvert.DeserializeObject<Collection<T>>(json);
+
             return obj;
         }
 
@@ -263,9 +288,31 @@ namespace AtomFrameworkCs
             return obj;
         }
 
+        public static T GetOne<T>(SqlConnection con, String sql)
+        {
+            Object ret = new();
+
+            ret = ConstructorCommand(con, sql, 1);
+            var json = JsonConvert.SerializeObject(ret);
+            T obj = JsonConvert.DeserializeObject<T>(json);
+            return obj;
+        }
+
         public static Object GetAll(SqlConnection con, String sql)
         {
             Object obj = ConstructorCommand(con, sql, 2);
+            return obj;
+        }
+
+        public static Collection<T> GetAll<T>(SqlConnection con, String sql)
+        {
+
+            Object ret = new();
+            ret = ConstructorCommand(con, sql, 2);
+            var json = JsonConvert.SerializeObject(ret);
+
+            Collection<T> obj = JsonConvert.DeserializeObject<Collection<T>>(json);
+
             return obj;
         }
 

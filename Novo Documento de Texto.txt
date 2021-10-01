@@ -1,0 +1,1 @@
+dotnet nuget push AtomFrameworkCs.1.0.0.nupkg -k oy2cxh25o3h6yf6ouasqnsggfq5mr6yehip63wqggj7iwa -s https://api.nuget.org/v3/index.json

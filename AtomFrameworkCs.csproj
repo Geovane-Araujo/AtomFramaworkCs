@@ -1,7 +1,26 @@
-<Project Sdk="Microsoft.NET.Sdk">
+﻿<Project Sdk="Microsoft.NET.Sdk">
 
   <PropertyGroup>
     <TargetFramework>net5.0</TargetFramework>
+    <Authors>Geovane Araújo</Authors>
+    <Company>AdonaiSoft</Company>
+    <GeneratePackageOnBuild>true</GeneratePackageOnBuild>
+    <Version>1.0.1</Version>
+    <Description>Biblioteca para CRUD c#
+
+Metodos
+
+InsertOne
+EditingOne
+DeleteOne
+GetAll
+GetOne
+
+Recebem como parametros uma conexão aberta com o banco e o objeto a ser inserido
+
+para mais informações consultar a documentação github:
+
+https://github.com/Geovane-Araujo/AtomFramaworkCs</Description>
   </PropertyGroup>
 
   <ItemGroup>
