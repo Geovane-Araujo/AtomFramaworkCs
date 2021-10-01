@@ -563,7 +563,7 @@
     "C:\\Program Files (x86)\\Microsoft\\Xamarin\\NuGet\\": {}
   },
   "project": {
-    "version": "1.0.1",
+    "version": "1.3.0",
     "restore": {
       "projectUniqueName": "E:\\Adonai Workspace\\AdonaiSoft Sistemas\\AdonaiSoft Uteis\\AtomFrameworkCs\\AtomFrameworkCs.csproj",
       "projectName": "AtomFrameworkCs",
@@ -636,13 +636,5 @@
         "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.303\\RuntimeIdentifierGraph.json"
       }
     }
-  },
-  "logs": [
-    {
-      "code": "Undefined",
-      "level": "Warning",
-      "warningLevel": 1,
-      "message": "Problem reading the cache file E:\\Adonai Workspace\\AdonaiSoft Sistemas\\AdonaiSoft Uteis\\AtomFrameworkCs\\obj\\project.nuget.cache : Invalid property identifier character: <. Path 'version', line 3, position 0."
-    }
-  ]
+  }
 }

@@ -5,7 +5,7 @@
     <Authors>Geovane Araújo</Authors>
     <Company>AdonaiSoft</Company>
     <GeneratePackageOnBuild>true</GeneratePackageOnBuild>
-    <Version>1.0.1</Version>
+    <Version>1.3</Version>
     <Description>Biblioteca para CRUD c#
 
 Metodos

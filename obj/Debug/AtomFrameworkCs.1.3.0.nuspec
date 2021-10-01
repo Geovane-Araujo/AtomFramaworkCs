@@ -2,9 +2,23 @@
 <package xmlns="http://schemas.microsoft.com/packaging/2012/06/nuspec.xsd">
   <metadata>
     <id>AtomFrameworkCs</id>
-    <version>1.0.0</version>
+    <version>1.3.0</version>
     <authors>Geovane Araújo</authors>
-    <description>Package Description</description>
+    <description>Biblioteca para CRUD c#
+
+Metodos
+
+InsertOne
+EditingOne
+DeleteOne
+GetAll
+GetOne
+
+Recebem como parametros uma conexão aberta com o banco e o objeto a ser inserido
+
+para mais informações consultar a documentação github:
+
+https://github.com/Geovane-Araujo/AtomFramaworkCs</description>
     <dependencies>
       <group targetFramework="net5.0">
         <dependency id="Newtonsoft.Json" version="13.0.1" exclude="Build,Analyzers" />

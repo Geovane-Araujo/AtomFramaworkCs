@@ -1,6 +1,6 @@
 {
   "version": 2,
-  "dgSpecHash": "EwyAd/Htklfu9Cqgt7Kd9g2DGQisjUAllMHLoZyjOsKFcoFR36zG9y96cVbQXGeuXHWbG5ykk42DFu4g21hy5g==",
+  "dgSpecHash": "kuiW8Nb87UZKztr82+zx6U6AYrh8kjvbTl4FNPnalMflhXGCN+AIVqQBo6kWrxaHqiwEYkOKxEi1ZeaEVnhdCg==",
   "success": true,
   "projectFilePath": "E:\\Adonai Workspace\\AdonaiSoft Sistemas\\AdonaiSoft Uteis\\AtomFrameworkCs\\AtomFrameworkCs.csproj",
   "expectedPackageFiles": [
@@ -17,12 +17,5 @@
     "C:\\Users\\geova\\.nuget\\packages\\system.security.accesscontrol\\4.7.0\\system.security.accesscontrol.4.7.0.nupkg.sha512",
     "C:\\Users\\geova\\.nuget\\packages\\system.security.principal.windows\\4.7.0\\system.security.principal.windows.4.7.0.nupkg.sha512"
   ],
-  "logs": [
-    {
-      "code": "Undefined",
-      "level": "Warning",
-      "warningLevel": 1,
-      "message": "Problem reading the cache file E:\\Adonai Workspace\\AdonaiSoft Sistemas\\AdonaiSoft Uteis\\AtomFrameworkCs\\obj\\project.nuget.cache : Invalid property identifier character: <. Path 'version', line 3, position 0."
-    }
-  ]
+  "logs": []
 }
