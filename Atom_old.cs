@@ -4,11 +4,9 @@ using System;
 using System.Collections;
 using System.Collections.Generic;
 using System.Collections.ObjectModel;
-using System.ComponentModel;
 using System.Data;
 using System.Data.SqlClient;
 using System.Reflection;
-using System.Text.Json;
 
 namespace AtomFrameworkCs
 {
@@ -105,10 +103,10 @@ namespace AtomFrameworkCs
                     Type a = propriedades.GetType();
                     Id id = (Id)Attribute.GetCustomAttribute(propriedades, typeof(Id));
                     ListObjectLocal list = (ListObjectLocal)Attribute.GetCustomAttribute(propriedades, typeof(ListObjectLocal));
-                    ObjectLocal objLocal = (ObjectLocal)Attribute.GetCustomAttribute(propriedades, typeof(ObjectLocal));
+                    SimpleObject obj = (SimpleObject)Attribute.GetCustomAttribute(propriedades, typeof(SimpleObject));
                     Ignore igi = (Ignore)Attribute.GetCustomAttribute(propriedades, typeof(Ignore));
 
-                    if (id == null && list == null && objLocal == null && igi == null)
+                    if (id == null && list == null && obj == null && igi == null)
                     {
                         fields += propriedades.Name + ",";
                         values += "@" + propriedades.Name + ",";
@@ -140,10 +138,10 @@ namespace AtomFrameworkCs
                     Type a = propriedades.GetType();
                     Id id = (Id)Attribute.GetCustomAttribute(propriedades, typeof(Id));
                     ListObjectLocal list = (ListObjectLocal)Attribute.GetCustomAttribute(propriedades, typeof(ListObjectLocal));
-                    ObjectLocal objLocal = (ObjectLocal)Attribute.GetCustomAttribute(propriedades, typeof(ObjectLocal));
+                    SimpleObject obj = (SimpleObject)Attribute.GetCustomAttribute(propriedades, typeof(SimpleObject));
                     Ignore igi = (Ignore)Attribute.GetCustomAttribute(propriedades, typeof(Ignore));
 
-                    if (id == null && list == null && objLocal == null && igi == null)
+                    if (id == null && list == null && obj == null && igi == null)
                     {
                         values += propriedades.Name + "=@" + propriedades.Name + ",";
                         var vl = propriedades.GetValue(obj);
@@ -338,10 +336,10 @@ namespace AtomFrameworkCs
                     Type a = propriedades.GetType();
                     Id id = (Id)Attribute.GetCustomAttribute(propriedades, typeof(Id));
                     ListObjectLocal list = (ListObjectLocal)Attribute.GetCustomAttribute(propriedades, typeof(ListObjectLocal));
-                    ObjectLocal objLocal = (ObjectLocal)Attribute.GetCustomAttribute(propriedades, typeof(ObjectLocal));
+                    SimpleObject obj = (SimpleObject)Attribute.GetCustomAttribute(propriedades, typeof(SimpleObject));
                     Ignore igi = (Ignore)Attribute.GetCustomAttribute(propriedades, typeof(Ignore));
 
-                    if (id == null && list == null && objLocal == null && igi == null)
+                    if (id == null && list == null && obj == null && igi == null)
                     {
                         fields += propriedades.Name + ",";
                         values += "@" + propriedades.Name + ",";
@@ -373,10 +371,10 @@ namespace AtomFrameworkCs
                     Type a = propriedades.GetType();
                     Id id = (Id)Attribute.GetCustomAttribute(propriedades, typeof(Id));
                     ListObjectLocal list = (ListObjectLocal)Attribute.GetCustomAttribute(propriedades, typeof(ListObjectLocal));
-                    ObjectLocal objLocal = (ObjectLocal)Attribute.GetCustomAttribute(propriedades, typeof(ObjectLocal));
+                    SimpleObject obj = (SimpleObject)Attribute.GetCustomAttribute(propriedades, typeof(SimpleObject));
                     Ignore igi = (Ignore)Attribute.GetCustomAttribute(propriedades, typeof(Ignore));
 
-                    if (id == null && list == null && objLocal == null && igi == null)
+                    if (id == null && list == null && obj == null && igi == null)
                     {
                         values += propriedades.Name + "=@" + propriedades.Name + ",";
                         var vl = propriedades.GetValue(obj);
@@ -575,10 +573,10 @@ namespace AtomFrameworkCs
                     Type a = propriedades.GetType();
                     Id id = (Id)Attribute.GetCustomAttribute(propriedades, typeof(Id));
                     ListObjectLocal list = (ListObjectLocal)Attribute.GetCustomAttribute(propriedades, typeof(ListObjectLocal));
-                    ObjectLocal objLocal = (ObjectLocal)Attribute.GetCustomAttribute(propriedades, typeof(ObjectLocal));
+                    SimpleObject obj = (SimpleObject)Attribute.GetCustomAttribute(propriedades, typeof(SimpleObject));
                     Ignore igi = (Ignore)Attribute.GetCustomAttribute(propriedades, typeof(Ignore));
 
-                    if (id == null && list == null && objLocal == null && igi == null)
+                    if (id == null && list == null && obj == null && igi == null)
                     {
                         fields += propriedades.Name + ",";
                         values += "@" + propriedades.Name + ",";
@@ -596,6 +594,7 @@ namespace AtomFrameworkCs
                         else
                             idcolumn = propriedades.Name;
                     }
+                    
 
                 }
                 fields = fields.Substring(0, fields.Length - 1);
@@ -610,10 +609,10 @@ namespace AtomFrameworkCs
                     Type a = propriedades.GetType();
                     Id id = (Id)Attribute.GetCustomAttribute(propriedades, typeof(Id));
                     ListObjectLocal list = (ListObjectLocal)Attribute.GetCustomAttribute(propriedades, typeof(ListObjectLocal));
-                    ObjectLocal objLocal = (ObjectLocal)Attribute.GetCustomAttribute(propriedades, typeof(ObjectLocal));
+                    SimpleObject obj = (SimpleObject)Attribute.GetCustomAttribute(propriedades, typeof(SimpleObject));
                     Ignore igi = (Ignore)Attribute.GetCustomAttribute(propriedades, typeof(Ignore));
 
-                    if (id == null && list == null && objLocal == null && igi == null)
+                    if (id == null && list == null && obj == null && igi == null)
                     {
                         values += propriedades.Name + "=@" + propriedades.Name + ",";
                         var vl = propriedades.GetValue(obj);
